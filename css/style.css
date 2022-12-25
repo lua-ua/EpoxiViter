@@ -41,10 +41,8 @@ li {
     background-repeat: no-repeat;
     background-size: cover;
 
-    
 }
 .wrapper__container {
-    
 }
 
 
@@ -58,11 +56,9 @@ li {
 }
 
 ._contacts {
-
 }
 
 ._logo {
-
 }
 
 
@@ -250,3 +246,4 @@ li {
 .description__list-item:not(:last-child) {
     margin: 0 0 5px 0;
 }
+
