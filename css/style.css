@@ -178,6 +178,129 @@ li {
     display: none;
 }
 
+/*---------СЛАЙДЕР---------------------------*/
+.section__slider {
+    min-width: 100%;
+    margin: 0 0 40px 0;
+    padding: 30px;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: #f5f5e0;
+    -webkit-box-shadow: 0px 0px 1px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+}
+._slider {
+
+}
+
+.slider__title {
+    margin-bottom: 10px;
+}
+.slider__note {
+    color: #ff0000;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.rating {
+    cursor: pointer;
+}
+.rating img {
+    width: 25px;
+    opacity: .8;
+}
+
+.wrapper__product { /*розташування блоку слайдера з описом по горизонталі*/
+    display: flex;
+    align-items: center;
+
+    margin: 10px 0;
+}
+
+.slider {
+    border: 2px solid black;
+    width: 341.33px;
+    height: 256px;
+    margin: 10px auto;
+    overflow: hidden;
+
+    margin: 0 25px 0 0;
+}
+
+.slider-line {
+    width: 3413.33px;
+    height: 256px;
+    display: flex;
+    background: orange;
+    position: relative;
+    left: 0;
+    transition: all ease 1s;
+}
+/*----ОПИС ТОВАРУ--------*/
+.product__description {
+}
+.product__description-list {
+}
+.product__description-list-item {
+    font-size: 20px;
+}
+.product__description-list-item span {
+    font-size: 16px;
+    color: rgb(1, 95, 13);
+    font-weight: 600;
+}
+
+
+.slider__nav {
+    position: relative;
+    right: 16%;
+    bottom: 0;
+}
+.slider__nav a {
+
+}
+._btn-slider {
+    padding: 0 15px;
+}
+._btn-slider img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+
+    transition: all 0.25s;
+}
+._btn-slider img:hover {
+    background-color: rgb(254, 180, 106);
+}
+
+button {
+    background: none;
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: .9rem;
+}
+
+button:hover {
+    background: orangered;
+}
+
+button:active {
+    background: #000;
+    color: #fff;
+}
+
+/*----------СЛАЙДЕР-АДАПТИВ----------------------------------------*/
+
 
 /*------ШВИДКИЙ-ЗВ'ЯЗОК--------------*/
 .page {
