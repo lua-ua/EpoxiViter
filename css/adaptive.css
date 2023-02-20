@@ -1,0 +1,192 @@
+/*  HEADER */
+@media (max-width: 940px) {
+    .navigation-link__name {
+        padding: 17px 20px;
+    }
+}
+@media (max-width: 850px) {
+    .navigation-link__name {
+        padding: 17px 15px;
+    }
+}
+@media (max-width: 768px) {
+    #burger-menu {
+        display: block;
+    }
+    .menu-navigation {
+        display: none;
+    }
+    .section-header-menu {
+        width: 100%;
+        position: static;
+    
+        z-index: 99;
+        background: none;
+        box-shadow:none;
+        background-color: none;
+    }
+    .header-bg {
+        margin: -30px 0 0 0;
+    }
+    ._btn-how-to-pay {
+        margin: 0;
+    }
+}
+@media (max-width: 768px) {
+    .social-networks-list {
+        flex-wrap: wrap;
+    }
+    .social-networks-item:not(:first-child) {
+        margin: 0 0 0 18px;
+    }
+}
+@media (max-width: 630px) {
+    .social-networks-list {
+        width: 280px;
+        display: block;
+    }
+    .social-networks-item:not(:first-child) {
+        margin: 10px 0 0 0;
+        line-height: 20px;
+    }
+}
+@media (max-width: 425px) {
+    .social-networks-link__name {
+        font-size: 21px;
+    }
+}
+/*-------------------------------*/
+
+
+
+
+/*  ABOUT ME */
+@media (max-width: 768px) {
+    .about {
+        margin: 0 0 50px 0;
+    }
+    .about-block-img {
+        padding: 15px;
+    }
+    .about-block-img__me-img {
+        max-height: 350px;
+    }
+}
+@media (max-width: 700px) {
+    .about-column {
+        padding: 15px;
+    }
+    .about-block-img__me-img {
+        max-height: 300px;
+    }
+}
+@media (max-width: 640px) {
+    .about-row {
+        display: block;
+    }
+}
+@media (max-width: 430px) {
+    .about-block-img__me-img {
+        max-height: 250px;
+    }
+}
+/*------------*/
+
+
+
+
+/*  SHOP */
+@media (max-width: 769px) {
+    .card-product__name {
+        font-size: 24px;
+    }
+    .product-features__title {
+        font-size: 22px;
+    }
+    .product__description-list-item {
+        font-size: 20px;
+    }
+    .slider-dots {
+        display: none;
+    }
+}
+@media (max-width: 515px) {
+    .slideshow-container {
+        margin-bottom: 5px;
+    }
+    .product-features {
+        width: 275px;
+    }
+}
+@media (max-width: 426px) {
+    .shop {
+        padding: 0;
+        margin: 0 0 50px 0;
+    }
+}
+
+/*-------------*/
+
+
+
+/*  CATALOG */
+@media (max-width: 426px) {
+    .catalog-row {
+        flex-wrap: wrap;
+    }
+    .catalog-block-img {
+        width: 100%;
+    }
+}
+/*-------------*/
+
+
+
+/*  REVIEWS */
+
+/*-------------*/
+
+
+
+/*  QUESTIONS */
+@media (max-width: 1064px) {
+    .questions-card {
+        max-width: 300px;
+    }
+}
+@media (max-width: 994px) {
+    .questions-card {
+        max-width: 280px;
+    }
+}
+@media (max-width: 932px) {
+    .questions-card {
+        max-width: 260px;
+    }
+}
+@media (max-width: 880px) {
+    .questions-row {
+        display: block;
+    }
+    .questions-card {
+        max-width: 100%;
+        margin: 0 0 30px 0;
+    }
+}
+@media (max-width: 768px) {
+    .questions-card {
+        margin: 0 0 20px 0;
+    }
+}
+/*-------------*/
+
+
+/*  HOW */
+
+/*-------------*/
+
+/*  FOOTER */
+
+/*-------------*/
+
+
